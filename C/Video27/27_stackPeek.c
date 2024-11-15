@@ -39,7 +39,6 @@ void push(struct stack * ptr, int val){
     }
 }
 
-
 // Function to create value and push in the array
 int pop(struct stack * ptr){
     if(isEmpty(ptr)){
