@@ -62,7 +62,6 @@ int peek(struct stack *sp, int i){
     else{
         return sp->arr[arrayInd];
     }
-    
 }
 
 
