@@ -28,7 +28,7 @@ int isEmpty(struct Node * top){
 int isFull(struct Node* top){
     struct Node * p = (struct Node *)malloc(sizeof(struct Node));
     if(p == NULL){
-        return 1; // 2 = false(Linked-List is Full)
+        return 1; // 1 = false(Linked-List is Full)
     }else{
         return 0; // 0 = false(Linked-List is not Full)
     }
