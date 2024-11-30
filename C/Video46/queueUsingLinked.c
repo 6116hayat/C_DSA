@@ -4,7 +4,7 @@
 struct Node * f = NULL;
 struct Node * r = NULL;
 
-// Defining Node And Queue Structure
+// Defining Node Structure
 struct Node{
     int data;
     struct Node * next;
